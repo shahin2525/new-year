@@ -167,7 +167,7 @@ main {
 
 /* suggestion section */
 .suggestion-section {
-  background-image: linear-gradient(to right, #0000ff5c, #00800021, #ffffff59),
+  background-image: linear-gradient(to right, #2424fa5c, #00800021, #ffffff59),
     url(images/watch.png);
 
   height: 200px;
@@ -182,23 +182,25 @@ main {
 
 /* suggestion section */
 .suggestion {
-  margin: 20px 0px 30px 30px;
+  margin: 10px 0px 20px 30px;
   padding: 20px 0px 30px 30px;
   align-items: left;
 }
 .suggestion-title {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
-  padding: 0px 100px 0px 0px;
-  margin: 0px 50px 10px 0px;
+  padding: 0px 210px 0px 0px;
+  margin: 0px 50px 5px 0px;
+  color: white;
   /* text-align: center; */
 }
 
 .suggestion-btn {
-  background-color: orange;
+  background-color: white;
   color: white;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
-  margin: 5px 0px 0px 0px;
+  margin: 5px 0px 5px 0px;
   font-size: 20px;
+  color: rgb(252, 165, 4);
 }
