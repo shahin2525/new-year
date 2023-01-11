@@ -167,13 +167,38 @@ main {
 
 /* suggestion section */
 .suggestion-section {
-  /* margin: 30px 40px 30px 100px; */
-  background-image: url(images/watch.png);
+  background-image: linear-gradient(to right, #0000ff5c, #00800021, #ffffff59),
+    url(images/watch.png);
+
   height: 200px;
   max-width: 750px;
   background-repeat: no-repeat;
   display: block;
   margin: 0px auto;
   margin-top: 80px;
-  background-blend-mode: ur;
+  display: flex;
+  /* background-blend-mode: ur; */
+}
+
+/* suggestion section */
+.suggestion {
+  margin: 20px 0px 30px 30px;
+  padding: 20px 0px 30px 30px;
+  align-items: left;
+}
+.suggestion-title {
+  font-size: 38px;
+  font-weight: 700;
+  padding: 0px 100px 0px 0px;
+  margin: 0px 50px 10px 0px;
+  /* text-align: center; */
+}
+
+.suggestion-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0px 0px 0px;
+  font-size: 20px;
 }
